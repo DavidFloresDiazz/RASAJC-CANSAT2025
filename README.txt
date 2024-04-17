@@ -1,7 +1,7 @@
 Hola y muchas gracias por acceder al repositorio de nuestro proyecto en la competicion de CANSAT realizada por la ESA.
 En este archivo explicaremos un poco más detalladamente la parte del codigo que no pudimos poner por falta de espacio en
 el informe entregado en la competición regional y explicaremos nuestra mision secundaria. Nuestra mision secundaria es 
-poder lograr la estimacion de el riesgo de incendio. Esto lo conseguimos gracias a fotos tomadas en una mini camara
+poder lograr la estimacion de el riesgo de incendio. Esto lo conseguimos gracias a fotos tomadas en una mini camara 
 con una SD de 32GB dentro de ella y un codigo diseñado Carlos Casas Bueno que nos estima el indice de riesgo del combstible
 fino muerto. La parte de las imaganes es relativamente sencilla, nosotros antes de que suba el CANSAT al aire encendemos la 
 camara en modo de video y despues del aterrizaje y extraccion de este conseguimos el video que extraemos gracias a un lector
