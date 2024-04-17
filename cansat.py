@@ -1,4 +1,3 @@
-# importing panda library 
 import csv
 import matplotlib
 import pandas as pd 
@@ -13,10 +12,7 @@ hdtylst = []
 
 
 def txt_to_csv():
-# readinag given csv file 
-# and creating dataframe 
     inp = pd.read_csv(inpu) 
-# storing this dataframe in a csv file 
     inp.to_csv(output,  
                     index = None)
     return print("Exito al hacer la tarea")
@@ -30,32 +26,22 @@ def graph_calculatedheight_gpsheight():
     T = 288.15
     h = []
 
-# Define la columna específica que deseas convertir a float (0-indexada)
-    columna_a_convertir = 2  # Por ejemplo, convierte la segunda columna
+    columna_a_convertir = 2 
     columna_gps = 7
-# Lista para almacenar los valores convertidos a float
     archivo = input("Introduzca el archivo de Datos: ")
-# Abre el archivo CSV en modo de lectura
     with open(archivo, newline='') as csvfile:
-        # Crea un lector CSV
         csvreader = csv.reader(csvfile)
         df = pd.read_csv(archivo, delimiter=",", decimal=".")
         h_gps = df.iloc[0:999999,7]    
-    # Itera sobre cada fila en el archivo CSV
         for fila in csvreader:
-        # Obtiene el valor de la columna específica y hace la 
             media = []
             valor = float(fila[columna_a_convertir])*10
             P = valor
             Formula = -1 * ((R*T)/(M*g)*math.log((P/P0)))
             h.append(Formula) 
-
-#Generamos una grafica lineal para una recta en X
-#plt.plot(y, label='Counter')
+		
     plt.plot(h_gps, label= "Altura GPS")
-    #plt.plot(media,label="Altura sacada con las medias entre las dos")
     plt.plot(h, label="Altura Calculada")
-#Agregamos las etiquetas y añadimos una leyenda.
     plt.xlabel('Eje X')
     plt.ylabel('Eje Y')
     plt.title("Comparación de Alturas")
@@ -72,13 +58,12 @@ def graphs():
     temperature = df.iloc[0:9999,1]
     pressure = df.iloc[0:9999, 2]
     humidity = df.iloc[0:9999, 3]
-#Generamos una grafica lineal para una recta en X
-#plt.plot(y, label='Counter')
+
     plt.plot(temperature, label="Temperature")
     plt.plot(altitude, label="Altitude")
     plt.plot(pressure, label="Pressure")
     plt.plot(humidity, label="Humidity")
-#Agregamos las etiquetas y añadimos una leyenda.
+
     plt.xlabel('Eje X')
     plt.ylabel('Eje Y')
     plt.title("Simple Plot")
