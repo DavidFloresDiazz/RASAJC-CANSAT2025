@@ -17,3 +17,10 @@ Y la ultima funcion es "help" que muestra los comandos/funciones explicados brev
 Todas estas funciones estan basadas en la utilizacion de un archivo txt/csv. 
 Aunque en el futuro pretendemos que esto no sea asi y mediante un plugin de Python llamado PySerial, 
 lo leriamos en tiempo real permitiendonos hacer graficas en tiempo real y ver "in situ" lo que pasa.
+
+
+EXPLICACION "graphs.py"
+
+Este codigo separa el txt/csv en varias partes para después graficarlas despues con la extension de Python Matplotlib
+Logrando las graficas necesarias para visualizar los datos. Como en el otro archivo, esperamos en un futuro no muy lejano
+mejorar este codigo para que sea en tiempo real
