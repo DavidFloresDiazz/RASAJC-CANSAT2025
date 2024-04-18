@@ -6,8 +6,8 @@ con una SD de 32GB dentro de ella y un codigo diseñado Carlos Casas Bueno que n
 fino muerto. La parte de las imaganes es relativamente sencilla, nosotros antes de que suba el CANSAT al aire encendemos la
 camara en modo de video y despues del aterrizaje y extraccion de este conseguimos el video que extraemos gracias a un lector
 usb de la tarjeta SD. Despues en el programa gratuito VLC, sacamos fotogramas en formato .TIFF que pasamos por un codigo en 
-Python diseñado por David Flores Diaz el cual solo se puede ejecutar dentro de la consola de Python de QGIS ya que utiliza extensiones de
-este programa. Este codigo resumidamente lo que hace este ahorrarnos el proceso de poner el NExG, que nos devolveria una imagen
+Python diseñado por David Flores Diaz el cual solo se puede ejecutar dentro de la consola de Python de QGIS ya que utiliza 
+extensiones de este programa. Este codigo resumidamente lo que hace este ahorrarnos el proceso de poner el NExG, que nos devolveria una imagen
 una escala de grises especifica. A esto le ponemos una paleta especifica llamada RdYlGn que va de rojo a verde. Y finalmente activaremos
 el histograma para marcar mas la diferencia de colores. Todo esto dentro del programa QGIS. Nuesto plan a futuro seria que todo este
 aparte de estar totalmente automatizado, es que gracias a una red neuronal entrenada y programada por nosotros nos saque un csv o un
