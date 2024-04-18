@@ -13,11 +13,12 @@ a verde. Y finalmente activaremos el histograma para marcar mas la diferencia de
 Nuesto plan a futuro seria que todo este aparte de estar totalmente automatizado, es que gracias a una red neuronal entrenada
 y programada por nosotros nos saque un csv o un txt con analisis de datos ya hecho (EJEMPLO: Le metemos como input a la red 
 neuronal la imagen y el indice de combustible de fino muerto, explicado a continucaion, y nos daria, un texto que explique 
-los datos y lo haga poniendo y referenciando oartes de fotogramas exactos. Esto sujeto a cambios). La segunda parte de nuestra 
-mision secundaria (el indice de combustible fino muerto) funciona de la siguiente manera. Basado en el documento de el Ministerio 
-de Medio Ambiente sobre este indice y sacamos unos valores dependiendo de lahora del dia, mes, exposicion y orientacion del lugar. 
-Esto sumado a unos calculos, los cuales son muy largos para este documento, nos dan ese indice. A continucaion pasare a explicar 
-cada codigo más detalladamente, el unico codigo que no puedo poner es el de QGIS por el hecho de que solo se puede utilizar ahi.
+los datos y lo haga poniendo y referenciando oartes de fotogramas exactos. Esto sujeto a cambios). La segunda parte de 
+nuestra mision secundaria (el indice de combustible fino muerto) funciona de la siguiente manera. Basado en el documento
+de el Ministerio de Medio Ambiente sobre este indice y sacamos unos valores dependiendo de lahora del dia, mes, exposicion
+y orientacion del lugar. Esto sumado a unos calculos, los cuales son muy largos para este documento, nos dan ese indice. 
+A continucaion pasare a explicar cada codigo más detalladamente, el unico codigo que no puedo poner es el de QGIS por el 
+hecho de que solo se puede utilizar ahi.
 Muchas Gracias por apoyar nuestro proyecto.
 
 
