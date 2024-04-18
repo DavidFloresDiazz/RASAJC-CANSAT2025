@@ -1,23 +1,23 @@
 Hola y muchas gracias por acceder al repositorio de nuestro proyecto en la competicion de CANSAT realizada por la ESA.
 En este archivo explicaremos un poco más detalladamente la parte del codigo que no pudimos poner por falta de espacio en
-el informe entregado en la competición regional y explicaremos nuestra mision secundaria. Nuestra mision secundaria es 
-poder lograr la estimacion de el riesgo de incendio. Esto lo conseguimos gracias a fotos tomadas en una mini camara 
+el informe entregado en la competición regional y explicaremos nuestra mision secundaria. Nuestra mision secundaria es
+poder lograr la estimacion de el riesgo de incendio. Esto lo conseguimos gracias a fotos tomadas en una mini camara
 con una SD de 32GB dentro de ella y un codigo diseñado Carlos Casas Bueno que nos estima el indice de riesgo del combstible
-fino muerto. La parte de las imaganes es relativamente sencilla, nosotros antes de que suba el CANSAT al aire encendemos la 
+fino muerto. La parte de las imaganes es relativamente sencilla, nosotros antes de que suba el CANSAT al aire encendemos la
 camara en modo de video y despues del aterrizaje y extraccion de este conseguimos el video que extraemos gracias a un lector
 usb de la tarjeta SD. Despues en el programa gratuito VLC, sacamos fotogramas en formato .TIFF que pasamos por un codigo en Python
-diseñado por David Flores Diaz el cual solo se puede ejecutar dentro de la consola de Python de QGIS ya que utiliza extensiones de 
-este programa. Este codigo resumidamente lo que hace este ahorrarnos el proceso de poner el NExG, que nos devolveria una imagen 
+diseñado por David Flores Diaz el cual solo se puede ejecutar dentro de la consola de Python de QGIS ya que utiliza extensiones de
+este programa. Este codigo resumidamente lo que hace este ahorrarnos el proceso de poner el NExG, que nos devolveria una imagen
 una escala de grises especifica. A esto le ponemos una paleta especifica llamada RdYlGn que va de rojo a verde. Y finalmente activaremos
-el histograma para marcar mas la diferencia de colores. Todo esto dentro del programa QGIS. Nuesto plan a futuro seria que todo este 
-aparte de estar totalmente automatizado, es que gracias a una red neuronal entrenada y programada por nosotros nos saque un csv o un 
-txt con analisis de datos ya hecho (EJEMPLO: Le metemos como input a la red neuronal la imagen y el indice de combustible de fino 
+el histograma para marcar mas la diferencia de colores. Todo esto dentro del programa QGIS. Nuesto plan a futuro seria que todo este
+aparte de estar totalmente automatizado, es que gracias a una red neuronal entrenada y programada por nosotros nos saque un csv o un
+txt con analisis de datos ya hecho (EJEMPLO: Le metemos como input a la red neuronal la imagen y el indice de combustible de fino
 muerto, explicado a continucaion, y nos daria, un texto que explique los datos y lo haga poniendo y referenciando oartes de fotogramas
 exactos. Esto sujeto a cambios). La segunda parte de nuestra mision secundaria (el indice de combustible fino muerto) funciona de la
 siguiente manera. Basado en el documento de el Ministerio de Medio Ambiente sobre este indice y sacamos unos valores dependiendo de la
-hora del dia, mes, exposicion y orientacion del lugar. Esto sumado a unos calculos, los cuales son muy largos para este documento, 
-nos dan ese indice. A continucaion pasare a explicar cada codigo más detalladamente, el unico codigo que no puedo poner es el de 
-QGIS por el hecho de que solo se puede utilizar ahi. 
+hora del dia, mes, exposicion y orientacion del lugar. Esto sumado a unos calculos, los cuales son muy largos para este documento,
+nos dan ese indice. A continucaion pasare a explicar cada codigo más detalladamente, el unico codigo que no puedo poner es el de
+QGIS por el hecho de que solo se puede utilizar ahi.
 Muchas Gracias por apoyar nuestro proyecto.
 
 
