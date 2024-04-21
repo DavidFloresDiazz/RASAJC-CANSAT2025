@@ -51,5 +51,5 @@ para evitar la extracción de los datos de vídeo del dispositivo.
 EXPLICACION "graphs.py"
 
 Este codigo separa el txt/csv en varias partes para después graficarlas con la extension de Python Matplotlib,
-logrando así, las gráficas necesarias para visualizar los datos. Como en el otro archivo, esperamos en un futuro no muy lejano
-mejorar este código para que sea en tiempo real.
+logrando así, las gráficas necesarias para visualizar los datos. Como en el otro archivo, esperamos en un futuro no muy lejano mejorar este código para 
+que sea en tiempo real.
