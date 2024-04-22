@@ -5,7 +5,7 @@ el informe entregado en la competición regional y explicaremos nuestra misión 
 la estimación del riesgo de incendio en la zona sobre la que lanzamos nuestro CanSat. Esto lo conseguimos usando dos métodos que, combinados nos 
 dan una estimación del riego de incendio muy precisa.
 El primer método es gráfico y utilizamos para ello una técnica mundialmente reconocida: el análisis del índice de Exceso de Varde Normalizado(NExV), 
-a pàrtir del cual obtenemos el riesgo de incendio visualmente gracias a fotos tomadas en una mini camara con una SD de 32GB. El segundo método se basa
+a partir del cual obtenemos el riesgo de incendio visualmente, gracias a fotos tomadas en una mini cámara con una SD de 32GB. El segundo método se basa
 en la obtención de medidas in situ de la humedad del combustible fino muerto en la zona registrada por la cámara.
 Para la realización del primer método, antes del lanzamineto del CANSAT al aire, encendemos la cámara en modo de video, para posteriormente, 
 después del aterrizaje leer el contenido de la tarjeta mediante un lector usb. Después en el programa gratuito VLC, sacamos fotogramas en formato .TIFF 
@@ -15,13 +15,12 @@ devuelve una imagen una escala de grises específica. A esto le ponemos la palet
 a verde. Y finalmente activamos el histograma para marcar más las diferencias de colores. Todo esto dentro del programa QGIS.De esta manera el usuario en la 
 estación de tierra puede visualizar de manera sencilla en la imagen real el riesgo de incendio desde el rojo pasando al verde. Además se puede comparar con imágenes de registros históricos previos para obtener una probabilidad del riesgo de incendio y cómo esta varía en diferentes zonas y poder hacer predicciones mediante IA.
 Nuesto plan de futuro es que toda esta aparte esté totalmente automatizada, y que mediante una red neuronal entrenada
-y programada por nosotros nos saque un csv o un txt con analisis de datos ya hecho (EJEMPLO: Le metemos como input a la red neuronal la imagen y el índice de combustible de fino muerto, explicado a continución, y nos daria, un texto que explique los datos y lo haga poniendo y referenciando partes de fotogramas exactos. 
-El segundo método de estimación del riesgo de incendio en la zona objeto de estudio. Nuestro CanSat una vez que aterriza actúa como una sonda midiendo y 
+y programada por nosotros nos saque un csv o un txt con analisis de datos ya hecho (EJEMPLO: Le metemos como input a la red neuronal la imagen y el índice de combustible de fino muerto, explicado a continuación, y nos daría, un texto que explique los datos y lo haga poniendo y referenciando partes de fotogramas exactos.) 
+El segundo método de estimación del riesgo de incendio en la zona objeto de estudio es el siguiente: nuestro CanSat una vez que aterriza actúa como una sonda midiendo y 
 emitiendo en tiempo real datos de humedad del aire y temperatura a ras de suelo, esos datos son el input de nuestro algoritmo (escrito por otro miembro 
 del equipo-Carlos Casas) para estimar la humedad del combustible fino muerto computando a través de los datos ofrecidos por el Ministerio 
-de Medio Ambiente y corrigiendo los valores dependiendo de la hora del dia, mes, exposición y orientación del lugar. Esto, sumado a unos cálculos
-(muy largos para este documento), nos dan ese índice. 
-A continuación pasaré a explicar cada parte del código más detalladamente.
+de Medio Ambiente y corrigiendo los valores dependiendo de la hora del dia, mes, exposición y orientación del lugar (estos datos los coge automáticamente del equipo del usuario o estación de tierra). Esto, sumado a unos cálculos (muy largos para este documento), nos dan ese índice. 
+A continuación pasaremos a explicar cada parte del código más detalladamente.
 Hemos creado una aplicación para que sea más cómodo el procesado de datos. Podéis encontrarlo en el apartado de "Releases".
 Muchas Gracias por apoyar nuestro proyecto.
 
