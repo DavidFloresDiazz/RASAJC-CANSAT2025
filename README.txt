@@ -21,7 +21,8 @@ emitiendo en tiempo real datos de humedad del aire y temperatura a ras de suelo,
 del equipo-Carlos Casas) para estimar la humedad del combustible fino muerto computando a través de los datos ofrecidos por el Ministerio 
 de Medio Ambiente y corrigiendo los valores dependiendo de la hora del dia, mes, exposición y orientación del lugar. Esto, sumado a unos cálculos
 (muy largos para este documento), nos dan ese índice. 
-A continuación pasare a explicar cada parte del código más detalladamente.
+A continuación pasaré a explicar cada parte del código más detalladamente.
+Hemos creado una aplicación para que sea más cómodo el procesado de datos. Podéis encontrarlo en el apartado de "Releases".
 Muchas Gracias por apoyar nuestro proyecto.
 
 
