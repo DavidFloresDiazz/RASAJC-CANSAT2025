@@ -6,7 +6,7 @@ la estimación del riesgo de incendio en la zona sobre la que lanzamos nuestro C
 El primer método es gráfico y utilizamos para ello una técnica mundialmente reconocida: el análisis del índice de Exceso de Varde Normalizado(NExV), 
 a partir del cual obtenemos el riesgo de incendio visualmente, gracias a fotos tomadas en una mini cámara con una SD de 32GB. El segundo método se basa
 en la obtención de medidas in situ de la humedad del combustible fino muerto en la zona registrada por la cámara.
-Para la realización del primer método, antes del lanzamineto del CANSAT al aire, encendemos la cámara en modo de video, para posteriormente, 
+Para la realización del primer método, antes del lanzamiento del CANSAT al aire, encendemos la cámara en modo de video, para posteriormente, 
 después del aterrizaje leer el contenido de la tarjeta mediante un lector usb. Después en el programa gratuito VLC, sacamos fotogramas en formato .TIFF 
 que pasamos por un código en Python diseñado por el miembro del equipo-David Flores Díaz, algoritmo que ejecutamos dentro de la consola de Python de QGIS 
 puesto que utiliza extensiones de este programa. Este código lo que hace es extraernos el NExG de la imagen .tiff, que nos 
