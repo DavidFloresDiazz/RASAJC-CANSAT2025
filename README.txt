@@ -2,8 +2,7 @@ Hola y muchas gracias por acceder al repositorio de nuestro proyecto en la compe
 (la sección educativa de la Agencia Espacial Europea-ESA).
 En este archivo explicaremos más detalladamente la parte del codigo que no pudimos poner por falta de espacio en
 el informe entregado en la competición regional y explicaremos nuestra misión secundaria. Nuestra misión secundaria es
-la estimación del riesgo de incendio en la zona sobre la que lanzamos nuestro CanSat. Esto lo conseguimos usando dos métodos que, combinados nos 
-dan una estimación del riego de incendio muy precisa.
+la estimación del riesgo de incendio en la zona sobre la que lanzamos nuestro CanSat. Esto lo conseguimos usando dos métodos que, combinados nos dan una estimación del riego de incendio muy precisa.
 El primer método es gráfico y utilizamos para ello una técnica mundialmente reconocida: el análisis del índice de Exceso de Varde Normalizado(NExV), 
 a partir del cual obtenemos el riesgo de incendio visualmente, gracias a fotos tomadas en una mini cámara con una SD de 32GB. El segundo método se basa
 en la obtención de medidas in situ de la humedad del combustible fino muerto en la zona registrada por la cámara.
